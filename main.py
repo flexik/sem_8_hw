@@ -13,7 +13,7 @@ import functions as func
 
 while True:
     print('1. вывод, 2. добавление, 3. поиск')
-    mode = int(input())
+    mode = int(input("Введите номер режима работы со справочником: "))
     if mode == 1:
         func.show_data()
     elif mode == 2:
